@@ -1,0 +1,47 @@
+{
+    
+        "icon": "lina.png",
+        "galleryBanner": {
+          "color": "#C80000",
+          "theme": "dark"
+        },
+      
+    "name": "glitchpink",
+    "displayName": "GlitchPink Theme",
+    "publisher": "lina",
+    "description": "pinky theme",
+    "author": {
+    "name": "lina mahrouch"
+    
+    },
+    
+    
+    
+    "version": "0.0.1", 
+    "engines": {
+        "vscode": "1.54.0"
+    },
+    
+
+    
+    "repository": {
+        "type": "https://github.com/linamah/glitchpink"
+    },
+    
+    
+      "keywords": ["dark theme","pink","pinkish","glitchpop","cyberpunk theme"],
+    
+
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Glitchpink",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Glitchpink-color-theme.json"
+            }
+        ]
+    }
+}
